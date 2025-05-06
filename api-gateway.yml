@@ -9,7 +9,7 @@ spring:
     gateway:
       discovery:
         locator:
-          enabled: true # автоматическое создание маршрутов по eureka
+          enabled: true
           lower-case-service-id: true
       routes:
         - id: store-app
